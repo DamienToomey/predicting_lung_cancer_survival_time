@@ -1,5 +1,7 @@
 *.zip
 *.csv
+data/data_9Cbe5hx
+data/data_Q0G7b5t
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
