@@ -30,4 +30,4 @@ Challenge website : https://challengedata.ens.fr/challenges/33
 - Dense Neural Network for regression on clinical_data.csv and radiomics.csv
 - Use models available in [pycox](https://github.com/havakv/pycox)
     - `pip3 install pycox`
-- CNN with CT scans and fuse some variables from clinical_data.csv and radiomics.csv at some point in the network
+- CNN for with regression on CT scans and fuse some variables from clinical_data.csv and radiomics.csv at some point in the network
