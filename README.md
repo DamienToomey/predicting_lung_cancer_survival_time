@@ -31,9 +31,9 @@ Challenge website : https://challengedata.ens.fr/challenges/33
 
 ### Remark on the 2 approaches
 
-Eventhoug the highest validation C-index for both approaches are quite close, the interval of the predicted survival times on the test set are very different.
+Eventhough the highest validation C-index for both approaches are quite close, the interval of the predicted survival times on the test set are very different.
 
-It looks like the C-index is not a good metric.
+It looks like the C-index is not a relevant metric.
 
 I will submit the results obtained with the first approach as the validation C-index is higher.
 
