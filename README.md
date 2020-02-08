@@ -17,14 +17,30 @@ Challenge website : https://challengedata.ens.fr/challenges/33
 
 [See jupyter-notebook on this repository](https://github.com/DamienToomey/predicting_lung_cancer_survival_time/blob/master/code/code.ipynb)
 
+- Highest validation C-index : 0.75
+- Predicted survival times on the test set are between 800 and  930 days.
+
 ### Second approach : Deep Learning 
 
 - CNN for regression only on CT scans
 
 [See jupyter-notebook on Google Colab (for GPU purposes)](https://colab.research.google.com/drive/1BImOfuIhQp6COx5Mg1gIBTJJs59XuhzV)
 
+- Highest validation C-index : 0.72
+- Predicted survival times on the test set are between 0 and  200 days.
+
+### Remark on the 2 approaches
+
+Eventhoug the highest validation C-index for both approaches are quite close, the interval of the predicted survival times on the test set are very different.
+
+It looks like the C-index is not a good metric.
+
+I will submit the results obtained with the first approach as the validation C-index is higher.
+
 ### Other approaches not explored here
 
+- Try other metrics (mean squared error)
+- Keep only data for people with Event equal to 1 (1=death observed) 
 - Choose other variables in the data (clinical_data.csv, radiomics.csv) instead of the ones used for the baseline
 - Regression on missing ages and histology and then take these variables into account when using autosklearn and lasso
 - Dense Neural Network for regression on clinical_data.csv and radiomics.csv
