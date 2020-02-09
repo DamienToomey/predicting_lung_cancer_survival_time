@@ -35,7 +35,7 @@ Eventhough the highest validation C-index for both approaches are quite close, t
 
 It looks like the C-index is not a relevant metric.
 
-My submission file is available [here](https://github.com/DamienToomey/predicting_lung_cancer_survival_time/blob/master/my_submission/submission.csv). The predictions were obtained with the first approach as the validation C-index is higher.
+My submission file containing predictions on the test set is available [here](https://github.com/DamienToomey/predicting_lung_cancer_survival_time/blob/master/my_submission/submission.csv). The predictions were obtained with the first approach as the validation C-index is higher.
 
 ### Other approaches not explored here
 
