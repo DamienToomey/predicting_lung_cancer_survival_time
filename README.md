@@ -44,7 +44,7 @@ My submission file containing predictions on the test set is available [here](ht
 
 | Ranking | Date | User(s) | Public score (C-index on test set) |
 | :---: | :---: | :---: | :---: |
-| 1 | Jan. 26, 2020, 9:33 p.m. | Krustovsky  (best on Feb. 9, 2020) | 0.7312 |
+| 1 | Jan. 26, 2020, 9:33 p.m. | Krustovsky  (best on Feb. 9, 2020, 9:10 p.m.) | 0.7312 |
 | | | | 0.691 (baseline) | 
 | 21 | Feb. 9, 2020, 9:10 p.m. | dtoomey (me) | 0.6855 |
 
