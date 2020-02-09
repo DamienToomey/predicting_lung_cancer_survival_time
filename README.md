@@ -37,6 +37,17 @@ It looks like the C-index is not a relevant metric.
 
 My submission file containing predictions on the test set is available [here](https://github.com/DamienToomey/predicting_lung_cancer_survival_time/blob/master/my_submission/submission.csv). The predictions were obtained with the first approach as the validation C-index is higher.
 
+### Submission
+
+> Successful submission !
+> Your submission score is : 0.6854896354489959
+
+| Ranking | Date | User(s) | Public score (C-index on test set) |
+| :---: | :---: | :---: | :---: |
+| 1 | Jan. 26, 2020, 9:33 p.m. | Krustovsky  (best on Feb. 9, 2020) | 0.7312 |
+| | | | 0.691 (baseline) | 
+| 21 | Feb. 9, 2020, 9:10 p.m. | dtoomey (me) | 0.6855 |
+
 ### Other approaches not explored here
 
 - Try other metrics (mean squared error)
